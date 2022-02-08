@@ -1,0 +1,106 @@
+.App{
+  background-color: #8080803b;
+  padding: 50px 0px;
+  height: 100vh;
+}
+
+.mainContainer{
+  background-color: white;
+  margin: auto;
+  width:75%;
+  border-radius: 10px;
+  border: 1px solid #8080803b;
+  display: block;
+  height: 80vh;
+  overflow-y: scroll ;
+}
+
+img{
+  border-radius: 100%;
+  border: 1px solid #8080803b;
+  width: 100%;
+}
+
+ol{
+  border-bottom: 1px solid #8080803b;
+  padding: 10px;
+  margin: 0px;
+}
+
+.nameContainer{
+  display: inline-block;
+  text-tranform: uppercase;
+  margin: 0px;
+}
+
+.imgContainer{
+  width: 15%;
+  float: left;
+}
+
+.detailsContainer{
+  width: 75%;
+  float: right;
+}
+.cl{
+  clear:both;
+}
+
+#searchByName{
+  display: block;
+  border: none;
+  padding:10px 20px;
+  border-bottom: 1px solid #8080803b;
+  height:20px;
+  width: -webkit-fill-available;
+  margin: 0px 10px;
+}
+
+.tagField{
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid #8080803b;
+  height:20px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.expandButton{
+  
+  background-color: white;
+  border: none;
+  font-weight: bolder;
+  cursor: pointer;
+  color: gray;
+  font-size: 40px;
+}
+
+.buttonContainer{
+  float: right;
+  width: 8%;
+  text-align: center;
+}
+
+.tag{
+  background-color: gray;
+  color: white;
+  border-radius: 2px;
+  margin: 2px;
+  padding: 2px;
+}
+
+.tagContainer{
+  padding-top: 5px ;
+}
+
+#searchByTag{
+  display: block;
+  border: none;
+  padding:10px 20px;
+  border-bottom: 1px solid #8080803b;
+  height: 20px;
+  width: -webkit-fill-available;
+  margin: 0px 10px;
+}
