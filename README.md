@@ -10,3 +10,6 @@ The search operation support search on name and tag at the same time.
 - In the main directory, run the command `npm install`  
 - Run `npm start` to start the server on port 3000
 - Run the application on localhost:3000
+
+
+The application can be viewed at https://student--profiles.herokuapp.com/
